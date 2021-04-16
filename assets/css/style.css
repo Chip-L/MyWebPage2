@@ -1,0 +1,43 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-content: center;
+  margin: 0;
+  padding: 0;
+}
+
+header,
+footer {
+  flex: 0 1 50px;
+  background-color: darkslateblue;
+  color: aliceblue;
+  padding: auto 10px;
+  border-bottom: darkblue;
+  text-align: center;
+  width: 100%;
+}
+
+header {
+  position: fixed;
+  top: 0;
+}
+
+nav {
+  display: flex;
+  justify-content: flex-end;
+  align-content: center;
+  margin: 0;
+  padding: 0;
+}
+
+nav a {
+  flex: 0 1;
+  text-decoration: none;
+  color: aliceblue;
+  margin: 10px 5px;
+}
